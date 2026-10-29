@@ -3,7 +3,7 @@
 > **Dự án mẫu:** Kiểm thử đánh giá bảo mật ứng dụng bán hàng Demo (Larpshop / Laravel Architecture).  
 > **Loại hình kiểm thử:** Grey-Box Penetration Testing  
 > **Chuẩn đánh giá:** OWASP WSTG v4.2 & CVSS v3.1  
-> **Người thực hiện:** Security / Pentest Intern Portfolio
+> **Người thực hiện:** Triệu Minh Trí
 
 ---
 
