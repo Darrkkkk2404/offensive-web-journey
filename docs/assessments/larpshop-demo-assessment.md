@@ -7,9 +7,9 @@
 
 ---
 
-## 1. Tóm Tắt Dành Cho Nhà Quản Lý (Executive Summary)
+## 1. Tóm Tắt (Executive Summary)
 
-Trong đợt đánh giá an toàn thông tin ứng dụng web **LarpShop**, mục tiêu là xác định các lỗ hổng có thể bị kẻ tấn công khai thác để chiếm quyền kiểm soát tài khoản, truy cập dữ liệu đơn hàng nhạy cảm hoặc can thiệp vào tiến trình thanh toán.
+Trong đợt thực hiện đồ án cuối kì Lập Trình Web, nhận ra sản phẩm có thể là 1 mẫu thử để tự tay bản thân pentest ( kiểm thử ) nên tôi đã thực hiện đánh giá an toàn thông tin ứng dụng web **LarpShop**, mục tiêu là xác định các lỗ hổng có thể bị kẻ tấn công khai thác để chiếm quyền kiểm soát tài khoản, truy cập dữ liệu đơn hàng nhạy cảm hoặc can thiệp vào tiến trình thanh toán.
 
 ### Biểu đồ phân bổ mức độ rủi ro (Risk Summary)
 - 🔴 **Critical:** 1 (SQL Injection dẫn đến rò rỉ toàn bộ cơ sở dữ liệu)
