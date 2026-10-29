@@ -1,6 +1,6 @@
-# 🧪 Demo Assessment Report: Larashop E-Commerce Web Application
+# 🧪 Demo Assessment Report: Larpshop E-Commerce Web Application
 
-> **Dự án mẫu:** Kiểm thử đánh giá bảo mật ứng dụng bán hàng Demo (Larashop / Laravel Architecture).  
+> **Dự án mẫu:** Kiểm thử đánh giá bảo mật ứng dụng bán hàng Demo (Larpshop / Laravel Architecture).  
 > **Loại hình kiểm thử:** Grey-Box Penetration Testing  
 > **Chuẩn đánh giá:** OWASP WSTG v4.2 & CVSS v3.1  
 > **Người thực hiện:** Security / Pentest Intern Portfolio
@@ -9,7 +9,7 @@
 
 ## 1. Tóm Tắt Dành Cho Nhà Quản Lý (Executive Summary)
 
-Trong đợt đánh giá an toàn thông tin ứng dụng web **Larashop**, mục tiêu là xác định các lỗ hổng có thể bị kẻ tấn công khai thác để chiếm quyền kiểm soát tài khoản, truy cập dữ liệu đơn hàng nhạy cảm hoặc can thiệp vào tiến trình thanh toán.
+Trong đợt đánh giá an toàn thông tin ứng dụng web **LarpShop**, mục tiêu là xác định các lỗ hổng có thể bị kẻ tấn công khai thác để chiếm quyền kiểm soát tài khoản, truy cập dữ liệu đơn hàng nhạy cảm hoặc can thiệp vào tiến trình thanh toán.
 
 ### Biểu đồ phân bổ mức độ rủi ro (Risk Summary)
 - 🔴 **Critical:** 1 (SQL Injection dẫn đến rò rỉ toàn bộ cơ sở dữ liệu)
@@ -23,7 +23,7 @@ Trong đợt đánh giá an toàn thông tin ứng dụng web **Larashop**, mụ
 
 | Hạng mục | Chi tiết |
 | :--- | :--- |
-| **Target URL** | `http://larashop.local` / `http://staging.larashop.demo` |
+| **Target URL** | `http://LarpShop.local` / `http://staging.LarpShop.demo` |
 | **Tech Stack** | PHP 8.2, Laravel 10, MySQL 8.0, Blade Template |
 | **Tài khoản kiểm thử** | `customer1@demo.local` (User), `customer2@demo.local` (User) |
 | **Ngoài phạm vi** | DoS/DDoS, Hạ tầng máy chủ vật lý, Nhà cung cấp cổng thanh toán |
@@ -40,7 +40,7 @@ Trong đợt đánh giá an toàn thông tin ứng dụng web **Larashop**, mụ
 - **Proof-of-Concept (PoC):**
   ```http
   GET /products?category=1%20UNION%20SELECT%20NULL,username,password,email,NULL%20FROM%20users-- HTTP/1.1
-  Host: larashop.local
+  Host: LarpShop.local
   ```
 - **Tác động:** Cho phép kẻ tấn công không cần xác thực đọc toàn bộ bảng `users` (chứa password hashes, email, số điện thoại khách hàng).
 - **Biện pháp khắc phục (Remediation):**
