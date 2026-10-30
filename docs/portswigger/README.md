@@ -13,7 +13,7 @@ Tại đây, mỗi chuyên đề lỗ hổng sẽ được tổ chức thành m�
 
 | Chuyên Đề (Topic) | Thư Mục | Trạng Thái | Số Lab Hoàn Thành | Ghi Chú |
 | :--- | :---: | :---: | :---: | :--- |
-| **SQL Injection** | [`SQLI/`](SQLI/) | 🟢 Active | **17 / 18** | Đã xử lý Union, Error, Blind (Đang làm OAST) |
+| **SQL Injection** | [`SQLI/`](SQLI/) | 🟢 Active | **16 / 18** | Đã xử lý Union, Error, Blind (Đang làm OAST) |
 | **NoSQL Injection** | `NOSQLI/` | 🟡 Up Next | 0 / 4 | Cú pháp BSON/JSON, auth bypass, operator injection |
 | **Authentication & Access Control** | `AUTH/` | ⚪ Planning | 0 / 14 | Password reset, MFA bypass, IDOR |
 | **Cross-Site Scripting** | `XSS/` | ⚪ Planning | 0 / 30 | Reflected, Stored, DOM-based, CSP bypass |
