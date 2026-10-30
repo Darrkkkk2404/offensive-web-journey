@@ -22,7 +22,7 @@ Chào mừng bạn đến với **Offensive Web Journey**! Repository này đư�
 
 Mọi nội dung trong repo đều tập trung vào 3 giá trị cốt lõi:
 - **Tự đúc kết lý thuyết (Self-written Foundation):** Hiểu rõ bản chất lỗ hổng, cơ chế hoạt động và nguyên nhân gốc rễ (Root Cause) thay vì chỉ sao chép payload máy móc.
-- **Tự động hóa (Automation & PoC):** Tự viết script (Python/Bash) để tự động hóa quá trình dò quét và khai thác (Blind SQLi, Brute-force).
+- **Tự động hóa (Automation & PoC):** Tự viết script (Python/Bash) để tự động hóa quá trình dò quét và khai thác.
 - **Quy trình thực chiến (Real-World Assessments):** Nắm vững phương pháp luận kiểm thử theo chuẩn quốc tế (OWASP WSTG, PTES).
 
 ---
@@ -40,7 +40,7 @@ flowchart LR
 
 ### 1. [PortSwigger Web Security Academy](docs/portswigger/)
 Khu vực ghi chép lý thuyết tự đúc kết, write-up từng bài lab và script PoC phân theo từng module lỗ hổng:
-- **[SQL Injection (SQLI)](docs/portswigger/SQLI/):** 17/18 Labs Solved (In-band, Union, Error-based, Blind SQLi).
+- **[SQL Injection (SQLI)](docs/portswigger/SQLI/):** 16/18 Labs Solved (In-band, Union, Error-based, Blind SQLi).
 - **NoSQL Injection:** Sắp học.
 - **Authentication, XSS, CSRF, SSRF,...:** Lộ trình tiếp theo.
 
@@ -78,7 +78,7 @@ Tài liệu hóa quy trình kiểm thử thâm nhập theo chuẩn công nghiệ
 ## 🛠️ Công Cụ Thường Dùng (Arsenal)
 
 - **Proxy / Traffic Analysis:** Burp Suite Community/Pro, Caido.
-- **Recon & Enumeration:** Nmap, FFUF, Gobuster, Katana.
+- **Recon & Enumeration:** Nmap, FFUF, Gobuster.
 - **Scripting & Automation:** Python 3 (requests, httpx), Bash.
 - **Browser Extensions:** HackTools, Wappalyzer, FoxyProxy.
 
